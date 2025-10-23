@@ -23,7 +23,7 @@ jobs:
     - name: Build
       run: |
         mkdir -p dist
-        go build -o dist/myapp .
+        go build -o dist/gofast .
       
     - name: bump version and create tag
       id: tag
